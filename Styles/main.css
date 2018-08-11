@@ -40,8 +40,16 @@ ul li a:hover {
 
 /* Move Right Header */
 
-#MainHeader:hover #SubHeader  {
-    display: block;
+#MainHeader:hover {
+    text-decoration: underline;
+}
+
+#MainHeader:focus {
+    background-color: azure;
+}
+
+#MainHeader #SubHeader  {
+    display: inline-block;
 }
 
 #SubHeader {
@@ -52,16 +60,20 @@ ul li a:hover {
     display: none;
 }
 
-#SubHeader:hover #SubHeaderHeader {
+/*#SubHeader:hover #SubHeaderHeader {
     display: block;
     float: left;
     margin-left: 100%;
-    clear: left;
+    clear: left; */
 }
 /*End of Move Right Header */
 
 
 /* Move Left Header */
+
+#MainHeaderLeft:hover {
+    text-decoration: underline;
+}
 
 #MainHeaderLeft:hover #SubHeaderLeft  {
     display: block;
@@ -79,6 +91,5 @@ ul li a:hover {
     display: block;
     float: right;
     margin-right: 100%;
-    clear: right;
 }
 /* End of Move Left Header */
