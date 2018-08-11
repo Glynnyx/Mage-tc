@@ -1,14 +1,16 @@
+/* Body Settings (Background, Font, default text colour) */
 body {
     background: #383838;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+/* End of Body Settings (Background, Font, default text colour) */
 
+/* Global list properties */
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-
 }
 
 ul li {
@@ -21,6 +23,7 @@ ul li {
     text-align: center;
     font-size: 20px;
     margin-right: 3px;
+    border: 1px white;
 }
 
 ul li a {
@@ -32,11 +35,50 @@ ul li a {
 ul li a:hover {
     background-color: #5d9afc;
 }
+/* End of global list properties */
 
-ul li ul li {
+
+/* Move Right Header */
+
+#MainHeader:hover #SubHeader  {
+    display: block;
+}
+
+#SubHeader {
     display: none;
 }
 
-ul li:hover ul li {
+#SubHeaderHeader {
+    display: none;
+}
+
+#SubHeader:hover #SubHeaderHeader {
+    display: block;
+    float: left;
+    margin-left: 100%;
+    clear: left;
+}
+/*End of Move Right Header */
+
+
+/* Move Left Header */
+
+#MainHeaderLeft:hover #SubHeaderLeft  {
     display: block;
 }
+
+#SubHeaderLeft {
+    display: none;
+}
+
+#SubHeaderHeaderLeft {
+    display: none;
+}
+
+#SubHeaderLeft:hover #SubHeaderHeaderLeft {
+    display: block;
+    float: right;
+    margin-right: 100%;
+    clear: right;
+}
+/* End of Move Left Header */
