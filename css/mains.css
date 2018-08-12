@@ -17,7 +17,11 @@ html  {
 .nav-tabs .nav-link.active{
     border-bottom: 3px solid transparent;
     background-color: #40C7EB;
-    border-bottom: 3px solid white !important;;
+    border-bottom: 3px solid white !important; 
+}
+
+.nav-item:hover { 
+    border-bottom: 3px solid white;
 }
 
 .float-right{
@@ -32,16 +36,12 @@ html  {
     overflow: hidden;
 }
 
-.nav-item a{
+.nav-item a .nav-item:hover{
     width: calc(20vw - 200px);
     border-bottom: 3px solid transparent;
     border-color: black;
     float: left;
     display: block;
-}
-
-.nav-item:hover { 
-    border-bottom: 3px solid white;
 }
 
 .active {
@@ -54,7 +54,7 @@ html  {
 }
 
 .navbar{
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     padding-top:5px;
 }
 
