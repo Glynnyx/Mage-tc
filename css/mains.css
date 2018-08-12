@@ -74,3 +74,27 @@ html  {
     border-color:white
 }
 
+.btn-light1 {
+    margin-left: 50px;
+    color: white;
+    background-color: #555555;
+    border: 1px solid white;
+}
+
+.btn-light {
+    color: white;
+    background-color: #555555;
+    border: 1px solid white;
+}
+
+.btn-light:hover {
+    color: black;
+    background-color: #40C7EB;
+    border: 1px solid #40C7EB;
+}
+
+.btn-light1:hover {
+    color: black;
+    background-color: #40C7EB;
+    border: 1px solid #40C7EB;
+}
