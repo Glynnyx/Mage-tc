@@ -1,0 +1,69 @@
+html  {
+    background-color: rgb(46, 46, 46)
+}
+
+.tab-pane {
+    background-color: rgb(57, 58, 58);
+
+}
+
+.tab-content {
+    background-color: rgb(57, 58, 58);
+    border-bottom: 3px solid rgb(83, 83, 83);
+}
+.lead {
+    color: white
+}
+.nav-tabs .nav-link.active{
+    border-bottom: 3px solid transparent;
+    background-color: #40C7EB;
+}
+
+.float-right{
+    position: absolute;
+    right: 200px;
+    top: 4px;
+    z-index: 1;
+}
+
+.nav-item {
+    background-color: #40C7EB;
+    overflow: hidden;
+}
+
+.nav-item a{
+    width: calc(20vw - 200px);
+    border-bottom: 3px solid transparent;
+    border-color: black;
+    float: left;
+    display: block;
+}
+
+.nav-item:hover { 
+    border-bottom: 3px solid white;
+}
+
+.active{
+    border: 0px !important;
+    border-bottom: 3px solid black;
+}
+
+.nav-link{
+    border: 0px !important;
+}
+
+.navbar{
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+
+.collapse {
+    background-color: #40C7EB;
+}
+
+.bg-dark {
+    background-color: #40C7EB!important;
+    padding:5px;
+}
+
+
