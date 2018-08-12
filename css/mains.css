@@ -15,21 +15,26 @@ html  {
     color: white
 }
 
+.nav-item .nav-link {
+    color: white;
+}
 
 .nav-item .nav-link.active {
+    color:white;
     background-color: #40C7EB;
     border-bottom: 3px solid transparent;
     border-bottom: 3px solid white !important; 
 }
 
 .nav-item .nav-link:hover { 
+    color: black;
     border-bottom: 3px solid white !important;
 }
 
 .float-right{
     position: absolute;
     right: 200px;
-    top: 4px;
+    /* top: 4px; */
     z-index: 1;
 }
 
@@ -98,3 +103,4 @@ html  {
     background-color: #40C7EB;
     border: 1px solid #40C7EB;
 }
+
