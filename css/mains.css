@@ -79,17 +79,14 @@ html  {
     border-color:white
 }
 
-.btn-light1 {
+.btn-light {
     margin-left: 50px;
     color: white;
     background-color: #555555;
     border: 1px solid white;
-}
-
-.btn-light {
-    color: white;
-    background-color: #555555;
-    border: 1px solid white;
+    width: 150px !important;
+    height: 40px !important;
+    float:left;
 }
 
 .btn-light:hover {
@@ -98,9 +95,18 @@ html  {
     border: 1px solid #40C7EB;
 }
 
-.btn-light1:hover {
-    color: black;
-    background-color: #40C7EB;
-    border: 1px solid #40C7EB;
+.FireTypeBtn {
+    /* display:none; */
+    width: 150px !important;
+    height: 40px !important;
+    margin-left: 50px;
+    background-color: #555555;
+    border: 1px solid white;
+    color: white;
+    float:left;
+
 }
 
+.FireTypeBtn {
+    display:none;
+}

@@ -10,21 +10,21 @@
     <!-- Custom CSS-->
     <link rel="stylesheet" href="css/mains.css">
 
-    <title>Amanda Smells</title>
+    <title>Mage Theorycrafting</title>
 </head>
 
 <body>
     <div>
 
 
-
+        <!-- Left header -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Mage Theorycrafting</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            <!-- Nav Bar Div -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
@@ -40,33 +40,46 @@
                         <button class="Homebtn float-right"><i class="fa fa-Home" role="button" ></i><ahref=index.html></a>Home</button>
             </div>
         </nav>
-
+        <!-- Fire Header / Button Code -->
         <div class="tab-content" id="myTabContent">
+            <!-- Text Loader -->
             <div class="jumbotron tab-pane fade show active" id="Fire" role="tabpanel" aria-labelledby="Fire-tab">
                     <p class="lead">Below is a list of all Fire Simulations that were ran on 01/01/2018. All of the HTML files generated can be found 
                             <a href="https://www.youtube.com/" target="_blank">here</a></p>
                     <p class="lead">Please select the type of simulation you wish to view:</p>
-                    <button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light1">Two Target</button> <button type="button" class="btn btn-light1">Four Target</button>
+                        <!-- Target Button Code -->
+                        <p><button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light">Two Target</button> <button type="button" class="btn btn-light">Four Target</button>
+                    <div id="Fire" class="SimTypeButton"> <br> <br>
+                        <button type="button" class="btn FireTypeBtn">Talents</button> <button type="button" class="btn FireTypeBtn">Trinkets</button>
+                    </div>
             </div>
+            <!-- Frost Header / Button Code -->
+            <!-- Text Loader -->
             <div class="jumbotron tab-pane fade" id="Frost" role="tabpanel" aria-labelledby="Frost-tab">
                     <p class="lead">Below is a list of all Frost Simulations that were ran on 01/01/2018. All of the HTML files generated can be found 
                             <a href="https://www.youtube.com/" target="_blank">here</a></p>
                     <p class="lead">Please select the type of simulation you wish to view:</p>
-                            <button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light1">Two Target</button> <button type="button" class="btn btn-light1">Four Target</button>
+                        <!-- Target Button Code -->
+                        <button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light">Two Target</button> <button type="button" class="btn btn-light">Four Target</button>
             </div>
+            <!-- Arcane Header / Button Code -->
+            <!-- Text Loader -->
             <div class="jumbotron tab-pane fade" id="Arcane" role="tabpanel" aria-labelledby="Arcane-tab">
                     <p class="lead">Below is a list of all Arcane Simulations that were ran on 01/01/2018. All of the HTML files generated can be found 
                         <a href="https://www.youtube.com/" target="_blank">here</a></p>    
                    <p class="lead">Please select the type of simulation you wish to view:</p>
-                        <button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light1">Two Target</button> <button type="button" class="btn btn-light1">Four Target</button>             
+                        <!-- Target Button Code -->
+                        <button type="button" class="btn btn-light">Single Target</button> <button type="button" class="btn btn-light">Two Target</button> <button type="button" class="btn btn-light">Four Target</button>             
             </div>
         </div>
+        <!-- JQuery script loads -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
+        <script src="js/ButtonLoad.js"></script>
 </body>
 
 </html>
