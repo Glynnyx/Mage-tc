@@ -1,3 +1,15 @@
+.lead {
+    color: white;
+}
+
+h1 {
+    color: white
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
 html  {
     background-color: rgb(46, 46, 46)
 }
@@ -11,6 +23,7 @@ html  {
     background-color: rgb(57, 58, 58);
     border-bottom: 3px solid rgb(83, 83, 83);
 }
+
 .lead {
     color: white
 }
@@ -21,7 +34,7 @@ html  {
 
 .nav-item .nav-link.active {
     color:white;
-    background-color: #40C7EB;
+    background-color: rgb(55, 176, 209);
     border-bottom: 3px solid transparent;
     border-bottom: 3px solid white !important; 
 }
@@ -39,7 +52,7 @@ html  {
 }
 
 .nav-item {
-    background-color: #40C7EB;
+    background-color: rgb(55, 176, 209);
     overflow: hidden;
 }
 
@@ -66,11 +79,11 @@ html  {
 }
 
 .collapse {
-    background-color: #40C7EB;
+    background-color: rgb(55, 176, 209);
 }
 
 .bg-dark {
-    background-color: #40C7EB!important;
+    background-color: rgb(55, 176, 209)!important;
     padding:5px;
 }
 
@@ -91,8 +104,8 @@ html  {
 
 .btn-light:hover {
     color: black;
-    background-color: #40C7EB;
-    border: 1px solid #40C7EB;
+    background-color: rgb(55, 176, 209);
+    border: 1px solid rgb(55, 176, 209);
 }
 
 .FireTypeBtn {
@@ -107,6 +120,66 @@ html  {
 
 }
 
+.IndexJumbotron {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 30px  
+}
+
 .FireTypeBtn {
     display:none;
+}
+
+
+#GuideIntro {
+    color:white;
+    font-size: 20px
+}
+
+.GuideTableOfContents {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding-left: 30px;
+}
+
+.GuideJumbotron {
+    padding-left: 30px;
+    padding-top: 10px
+}
+
+.IndexTableOfContents {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding-left: 30px;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    padding-left: 5px;
+}
+
+.GuideList {
+    color: rgb(55, 176, 209);
+    text-decoration: underline;
+}
+
+.GuideList:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.GuideList:visited  {
+    color: rgb(55, 176, 209);
+    text-decoration: underline;
+}
+
+.IntroJumbotron {
+    padding-left: 30px;
+    padding-top: 10px
+}
+
+.IntroBottom {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding-left: 30px;
 }
