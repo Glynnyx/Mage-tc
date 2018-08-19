@@ -156,6 +156,7 @@ html  {
 .navbar-dark .navbar-brand {
     color: white;
     padding-left: 5px;
+    font-size: 25px;
 }
 
 .GuideList {
@@ -182,4 +183,20 @@ html  {
     background-color: rgb(46, 46, 46);
     color: white;
     padding-left: 30px;
+}
+
+#IntroHeaders {
+    color: rgb(55, 176, 209);
+}
+
+.SimcUC {
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.spell_icon {
+    width: 15px;
+    height: 15px;
 }

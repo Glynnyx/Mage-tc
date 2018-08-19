@@ -21,20 +21,7 @@
                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-<!-- Nav Bar Div -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="Fire-tab" data-toggle="tab" href="#Fire" role="tab" aria-controls="Fire" aria-selected="true">Fire</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="Frost-tab" data-toggle="tab" href="#Frost" role="tab" aria-controls="Frost" aria-selected="false">Frost</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="Arcane-tab" data-toggle="tab" href="#Arcane" role="tab" aria-controls="Arcane" aria-selected="false">Arcane</a>
-            </li>
-        </ul> -->
-            <!-- <button class="Homebtn float-right"><i class="fa fa-Home" role="button" ></i><ahref=index.html></a>Home</button> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
         </nav>
     </div>        
@@ -43,32 +30,45 @@
             <!-- Text Loader -->
             <div class="IntroJumbotron" id="Fire" role="tabpanel" aria-labelledby="Fire-tab">
                 <h1>Ability Overview</h1>
-                <!-- <p class="lead">Welcome to my Theorycrating website. Here you can find a guide for Frost Mage as well as some simulation resourcses. 
-                <p class="lead">Please select the content you wish to see:</p> -->
             </div>
         </div>
-<!-- Start of Website description. -->
+<!-- Ability Overview Div -->
     <br>
     <div class="IntroBottom">
-        <h3>1. Basic Abilities for Frost Mage</h3>
-        <p>Below is a list of all basic abilities in for the Frost Mage. In this section I will go over what abilities you have and how to use them. This will be split in to three sections: The general abilities you press, the procs you get & the cooldowns you use.</p> <br>
-        <h3>2. General Abilities</h3>
+        <h3 id="IntroHeaders">1. About this page</h3>
+        <p>Below is a list of all basic abilities in for the Frost Mage. In this section I will go over what abilities you have and how to use them. This will be split in to three sections: The general abilities you press, the procs you get & the cooldowns you use.</p>
+        <!-- General Abilities -->
+<br>    <h3 id="IntroHeaders">2. Offensive Abilities</h3>
         <p> Frostbolt is your filler ability. It doesn't deal a great amount of damage but is your main source of Brain Freeze and Fingers of Frost procs. </p> 
         <p> Ice Lance is your main damage dealing ability. Ice Lance is an instant cast spell and when empowered by Fingers of Frost, Ice Lance is also affected by Shatter. Additionally, if Ice Lance hits a target that is frozen it will deal triple damage. </p>
         <p> Flurry is another one of your main damage dealing abilities. Flurry should only be used when a Brain Freeze proc is active. When we Flurry while Brain Freeze is active it turns in to an instant cast spell that applies the debuff Winter's Chill, causing the target to take damage from your spells as if it were frozen. </p>
         <p> Blizzard is an area of effect ability that is mainly used when there is more that one enemy. In addition to being your core AoE ability it also reduces the cooldown of Frozen Orb for each enemy hit.</p>
-        <h3>3. Procs</h3>
+        <p> Arcane Intellect is a raid wide buff that increases the intellect of all part and raid members by 10%.</p>
+        <p> Cone of Cold deals frost damage in a cone in front of you.</p>
+        <!-- Procs -->
+<br>    <h3 id="IntroHeaders">3. Defensive & Misc Abilities</h3>
+        <p> Counterspell counters the enemy spells cast interrupting them and preventing them from casting another spell from the same school for 6 seconds.</p>
+        <p> Frost Nova deals damage and roots all enemies wihin 12 yards of your position.</p>        
+        <p> Ice Barrier shields you with ice and absorbs damage.</p>
+        <p> Remove Curse removes all curses from a friendly target. </p>
+        <p> Spell Steal steals 1 beneficial magic buff from the target. The buff stolen lasts a maximum of 2 minutes.
+        <p> Cold Snap resets the cooldown of your Ice Barrier, Frost Nova, Cone of Cold and Ice Block.</p>
+        <p> Ice Block encases you in a block of ice, protecting you from all attacks and damage for 10 seconds, but during that time you cannot attack, move or cast spells. After using Ice Blocking you gain Hypothermia for 30 seconds preventing you from using Ice Block again.</p>
+        <p> Invisibility turns you invisible over 3 seconds reducing threat each second. While invisible, you are untargetable by enemies. Lasts 20 seconds. Taking any action cancels this effect.</p>
+        </p>
+<br>    <h3 id="IntroHeaders">4. Procs</h3>
         <p> Fingers of Frost is a proc granted by Frozen Orb & Frostbolt. Fingers of Frost causes your next Ice Lance to deal damage as if the target were frozen.</p>
-        <p> Brain Freeze is a proc we gain from Frostbolt and Ebonbolt. Casting Flurry with a Brain Freeze proc is instant and applies Winter's Chill which makes your spells treat the target as if frozen for the duration of the debuff.</p>
-        <h3>4. Cooldowns</h3>
+        <p> <img class="spell_icon" src="https://static.icy-veins.com/images/wow/large_icons/ability_mage_brainfreeze.jpg" alt="Brain Freeze Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190447" data-tooltip-href="https://beta.wowdb.com/spells/190447">Brain Freeze</a> is a proc we gain from Frostbolt and Ebonbolt. Casting Flurry with a <img class="spell_icon" src="https://static.icy-veins.com/images/wow/large_icons/ability_mage_brainfreeze.jpg" alt="Brain Freeze Icon"> <a rel="nofollow" class="spell" href="https://beta.wowdb.com/spells/190447" data-tooltip-href="https://beta.wowdb.com/spells/190447">Brain Freeze</a> proc is instant and applies Winter's Chill which makes your spells treat the target as if frozen for the duration of the debuff.</p>
+        <!-- Cooldowns -->
+<br>    <h3 id="IntroHeaders">5. Cooldowns</h3>
         <p> Icy Veins is your main cooldown ability, it grants us 30% haste for 20 seconds. Icy Veins now also grants Frigid Grasp from your Azerite traits which increases your intellect for 10 seconds and also grants on charge of Fingers of Frost</p>
-        <p> Frozen Orb is another one of your main cooldown abilities. Frozen Orbs main use is to generate Fingers of Frost procs. It should be noted that the first tick of Frozen Orb will always grant 1 Fingers of Frost and additional targets does not increase the chance to generate Fingers of Frost from Frozen Orb</p>
-        <h3>5. Passives</h3>
+        <!-- Passives -->
+<br>    <h3 id="IntroHeaders">6. Passives</h3>
         <p> Shatter is a passive that increases the critical strike chance of your spells against frozen targets. Targets can be frozen or treated as frozen in different ways e.g. casting Ice Lance while Fingers of Frost is active</p>
     </div>
     <div class="GuideTableOfContents">
         <br>
-        <h3>Navigation</h3>
+<br>    <h3 id="IntroHeaders">7. Navigation</h3>
         <p>Please continue to your desired location</p>
             <ul class="GuideTableOfContentsList">
                 <li> <a href="Guide.html" class="GuideList">Guide Home</a></li>
