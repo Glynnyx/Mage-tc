@@ -200,3 +200,8 @@ html  {
     width: 15px;
     height: 15px;
 }
+
+.GuideContentHeader {
+    color: rgb(55, 176, 209);
+    font-size: 1.75rem;
+}
